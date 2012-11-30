@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bouncing Ball</title>
+		<link rel="stylesheet" href="css.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+		<script src="js.js"></script>
+	</head>
+	<body onload="init();">
+		<canvas id="canvas" width="300" height="200">
+			Oh no.
+		</canvas>
+		<br />
+		<form name="f" id="f" onsubmit="return change();">
+			水平速度
+			<input name="hv" id="hv" value="4" type="number" min="-10" max="10" /><br />
+			垂直速度
+			<input name="vv" id="vv" value="8" type="number" min="-10" max="10" />
+			<input type="submit" value="CHANGE" />
+		</form>
+	</body>
+</html>

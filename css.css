@@ -1,0 +1,12 @@
+form {
+	width: 250px;
+	margin: 15px;
+	background-color: green;
+	padding: 10px;
+}
+input:valid {
+	background-color: green;
+}
+input:invalid {
+	background-color: red;
+}
